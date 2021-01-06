@@ -1,6 +1,6 @@
 # Rh-TiO2-classificator
 
-#Introduction
+##Introduction
 
 On the basis of the article “Rhodium nanoparticles impregnated on TiO2: strong morphological effects on hydrogen production” (https://doi.org/10.1039/D0NJ02419H) authored by Brunno L. Albuquerque, Gustavo Chacón, Michael Nazarkovsky and  Jairton Dupont, data analysis of the size distribution profiles for all three subject samples (NP, NC and Oh) was performed (outliers analysis, distributions classification, analysis of variances, discriminant analysis). The results allowed us to distinguish each type of the samples by their size distribution profiles and make predictive modeling for the algorithms to classify them. To this end, machine learning approaches, such as Naive Bayes, Logistic Regression, K-Nearest Neighbors, Discriminant Analysis, Support Vector Machine and Decision Tree were trained, validated and compared by their effectiveness to predict the samples. The most effective model has turned out to be Logistic Regression, whose misclassification rate at the validation stage of the model is less than 13% (12.81%) at the minimal mean -log(p) = 0.2509. As a result, an offline calculator to predict the samples type was developed and the prediction formula was provided. The project was coded by means of JSL (JMP Scripting Language, SAS).
 
