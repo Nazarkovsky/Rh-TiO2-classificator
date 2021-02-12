@@ -8,7 +8,9 @@ On the basis of the article “Rhodium nanoparticles impregnated on TiO2: strong
 
 For adequate distribution analysis the data preparation, the outliers were detected with the Malahanobis distances approach and the K-Nearest neighbors. 
 The analysis of variances on the particles size by type (NP, NC or Oh) was undertaken using homo/heteroscedasticity comparison with the help of the Bryan-Forsythe, Bartlett, Levene and O’Brien tests, assuming the null hypothesis (Ho) that the variances are equal, but each uses a different method for measuring variability. Levene’s test estimates the mean value of these absolute differences for each group. Then, a t-test is conducted (or equivalently, an F-test) on these estimates. The Brown-Forsythe test measures the differences from the median instead of the mean (opposed to Levene’s test) and tests these differences. O’Brien’s test tricks the t-test by telling it that the means were really variances. Bartlett’s test derives the test mathematically, using an assumption that the data are normal. Despite its power, the subject test is not robust in respect to disnormality. 
+
 For understanding the effect of size distribution, all three samples as three variances were subjected to study with the help of the of ANOVA F-test (in case of homoscedastic) or nonparametric Wilcoxon (known also as Whitney-Mann) test (in case of heteroscedastic). 
+
 Additionally, the means comparison with the Tukey-Kramer HSD test was performed. The α-criterion of acceptance/reject of Ho is 0.05. 
 For the future prediction, a series of machine learning models was set: Classification Tree, Naïve Bayes, Support Vector Machine, Logistic Regression, K-Nearest Neighbors. The models were compared by the set metrics for categorical responses, such as misclassification rate (MR), entropy of R2 and supported by the confusion matrices
 
